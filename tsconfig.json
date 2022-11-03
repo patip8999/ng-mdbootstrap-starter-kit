@@ -1,4 +1,3 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -21,7 +20,18 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@basket": [
+        "projects/basket/src/index.ts"
+      ],
+      "@checkout": [
+        "projects/checkout/src/index.ts"
+      ],
+      "@event-bus": [
+        "projects/event-bus/src/index.ts"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
